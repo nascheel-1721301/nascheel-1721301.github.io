@@ -1,6 +1,90 @@
 /* Nikolai Scheel
  * Info 101 AD
  * Builder 3
- * test.css */
+ * test.css
+ * 
+ * Note: redundancy of categories factored out 
+ * Note: five new tags added at bottom */
  
+ #Header, #LeftNav, #Content, #Footer {
+    border: solid 8px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+ }
  
+ #Header {
+    width: 500px;
+ }
+ 
+ #LeftNav {
+    width: 400px;
+    float: left;
+    padding-bottom: 8px;
+ }
+ 
+ #Content {
+    width: 700px;
+    padding: 15px;
+ }
+ 
+ ul {
+    list-style-type: none;
+    padding-left: 0px;
+ }
+ 
+ #Header h1 {
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #FFBC00;
+    font-weight: bold;
+ }
+ 
+ p {
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+ }
+ 
+ h3 {
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;
+ }
+ 
+ div {
+    background-color: #8E41D5;
+ }
+ 
+ body {
+    background-image: url('dark_wood.png');
+ }
+ 
+ a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+ }
+ 
+ /* five new css tags (not factored so they're separate) */
+ 
+ h1, h3 {
+    text-shadow: 2px 2px black;
+ }
+ 
+div {
+   box-shadow: 5px 5px white;
+   border-radius: 10px;
+}
+
+img {
+   animation: rotation 2s infinite linear;
+}
+
+#Footer {
+   text-transform: uppercase;
+   word-wrap: break-word;
+}
